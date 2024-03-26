@@ -2,7 +2,7 @@
 import { getLaunchBy } from "../../services/spacex";
 import Layout from "../../layouts/Layout.astro";
 
-const { id } = Astro.props;
+const { id } = Astro.params
 
 let launch;
 if (id) {
@@ -11,7 +11,7 @@ if (id) {
 ---
 
 <Layout title={`Lanzamiento ${id}`}>
-  <article class="flex gap-y-4 flex-col">
+  <article class="flex gap-y-4 flex-col items-center">
     <img
       class="w-52 h-auto"
       src={launch?.links?.patch.small}
