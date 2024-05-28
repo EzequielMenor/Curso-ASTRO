@@ -1,7 +1,7 @@
 /* empty css                          */
 import { c as createAstro, d as createComponent, r as renderTemplate, h as renderComponent, m as maybeRenderHead, e as addAttribute } from '../astro_u5l-3x4W.mjs';
 import 'kleur/colors';
-import { $ as $$Layout } from './404_D0CfvsPm.mjs';
+import { $ as $$Layout } from './404_vrLpK2K-.mjs';
 
 const getLaunchBy = async ({
   id
@@ -43,9 +43,9 @@ const $$id = createComponent(async ($$result, $$props, $$slots) => {
   }
   return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": `Lanzamiento ${id}` }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<article class="flex gap-y-4 flex-col items-center"> <img class="w-52 h-auto"${addAttribute(launch?.links?.patch.small, "src")}${addAttribute(launch?.name, "alt")}> <h2 class="text-4xl text-white font-bold">
 Launch #${launch?.flight_number} </h2> <p class="text-lg">${launch?.details}</p> </article> ` })}`;
-}, "/Users/ezequielmenor/prueba-Astro/src/pages/launch/[id].astro", void 0);
+}, "/Users/ezequielmenor/Proyectos-VsCode/prueba-Astro/src/pages/launch/[id].astro", void 0);
 
-const $$file = "/Users/ezequielmenor/prueba-Astro/src/pages/launch/[id].astro";
+const $$file = "/Users/ezequielmenor/Proyectos-VsCode/prueba-Astro/src/pages/launch/[id].astro";
 const $$url = "/launch/[id]";
 
 const _id_ = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
